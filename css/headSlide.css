@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.slider_kkk 
+{
+    width: 100%;
+    /* margin: 0 auto; */
+    /* padding: 2em; */
+    box-sizing: border-box;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: grey; */
+    position: relative;
+    background-color: #fff;
+  }
+.slider_kkk :hover i{
+  opacity: 1;
+  transform: translateY(0px);
+}
+  
+  .iconsss
+  {
+    font-size: 2em;
+    cursor: pointer;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.434);
+  /* background-color: #4070f4; */
+
+    padding: 10px 0;
+    color: rgba(255, 255, 255, 0.53);
+    /* color: #ffff; */
+    transition: 0.3s;
+    /* transform: translateY(-30px); */
+   opacity: 0;
+  }
+  .right 
+  {
+    right: 15px;
+  }
+  .left1 
+  {
+    left: 15px;
+  }
+  
+  main {
+    width: 100%;
+    /* margin: 0 auto; */
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red; */
+    background-color: #fff;
+    
+  }
+  
+  main div {
+    width: 50px;
+    height: 280px;
+    border-radius: .5rem;
+    cursor: pointer;
+    background-color: green;
+    margin: 0px 5px;
+    overflow: hidden;
+  }
+  main div img 
+  {
+    width: 880px;
+    height: auto;
+  }
+  
+  .slide {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transform: translateY(-300%);
+  }
+  
+  .slide li {
+    padding: 4px;
+    /* border: 2px solid #1c1c1c; */
+    /* background-color: #cdcdcda2; */
+    border-radius: 50%;
+    margin-right: .5em;
+  }
+  
+  .fived{
+    margin-right: 0;
+  }
+  
+  .a {
+    width: 100%;
+  }
+  
+  .b {
+    /* background-color: #1c1c1c; */
+  }
+  
+  .c {
+    pointer-events: none;
+  }
+
+
+  one {
+    /* background-color: #3d5a80; */
+  }
+  
+  .two {
+    /* background-color: #98c1d9; */
+  }
+  
+  .three {
+    /* background-color: #e0fbfc; */
+  }
+  
+  .four {
+    /* background-color: #ee6c4d; */
+  }
+  
+  /* .five {
+    background-color: #293241;
+  } */

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*
+{
+    font-family: 'Montserrat', sans-serif;
+    /* color: rgb(27, 27, 27); */
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: var(--gen-text-color);
+}
+:root{
+    --bg-color: rgb(9, 9, 15);
+    --gen-text-color: rgba(255, 255, 255, 0.63);
+    --gen-text-hover-color: rgba(255, 255, 255, 0.87);
+
+
+}
+.dark_theme {
+    --bg-color: rgb(255, 255, 255);
+    --gen-text-color: rgba(17, 17, 17);
+    --gen-text-hover-color: rgba(12, 12, 12, 0.87);
+}
+body 
+{
+    background-color: var(--bg-color);
+}
+nav 
+{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    place-items: center;
+    /* position: fixed; */
+    /* width: 100%; */
+    /* top: 0; */
+    background-color: var(--bg-color);
+}
+nav div 
+{
+    /* background-color: green; */
+    height: fit-content;
+}
+nav .logo a img
+{
+    width: 70px;
+    height: auto;
+    opacity: .9;
+    filter: invert(100%);
+}
+nav .links 
+{
+    display: flex;
+    flex-direction: row;
+}
+nav .links li 
+{
+    /* background-color: blue; */
+    padding: 0px 10px;   
+}
+nav .links li a
+{
+    /* font-weight: 600; */
+    font-size: 14px;
+}
+nav .links li a:hover 
+{
+    color: var(--gen-text-hover-color);
+
+}
+nav .sign 
+{
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+}
+nav .sign a ion-icon:hover
+{
+    /* transform: scale(2,2); */
+    opacity: 1;
+}
+nav .sign a 
+{
+    margin: 0px 14px;
+    font-size: 14px;
+    transition: 0.3s;
+    color: var(--gen-text-color);
+}
+nav .sign a:hover 
+{
+    color: var(--gen-text-hover-color);
+}
+nav .sign .Bbtn 
+{
+    background-color: rgb(18, 150, 18);
+    padding: 10px 20px;
+    /* border-radius: 20pc; */
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+

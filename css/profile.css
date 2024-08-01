@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100%;
+  /* background: #e3f2fd; */
+}
+.m_upload
+{
+    background-color: rgba(0, 0, 0, 0.589);
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    top: 0;
+    display: none;
+}
+form
+{
+    background-color: #fff;
+    /* width: 400px; */
+    /* place-items: center; */
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-80%,-50%);
+    padding: 20px;
+}
+form .m_close11 
+{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    place-items: center;
+    margin-bottom: 20px;
+}
+form .m_close11 p 
+{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+form .m_close11 i 
+{
+    font-size: 1.6rem;
+    /* background-color: green; */
+    padding: 10px;
+    border-radius: 50px;
+    opacity: .7;
+}
+form .m_close11 i:hover 
+{
+    color: red;
+    cursor: pointer;
+}
+form .mainf 
+{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+form .mainf span 
+{
+    font-size: 14px;
+    opacity: .9;
+    margin-bottom: 5px;
+}
+form .mainf input[type='text']
+{
+    box-sizing: border-box;
+    border: none;
+    /* border: 1px solid black; */
+    padding: 10px 14px;
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 0;
+
+}
+form .mainf textarea
+{
+    box-sizing: border-box;
+    border: none;
+    /* border: 1px solid black; */
+    padding: 10px 14px;
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 0;
+    height: 100px;
+}
+form .mainf input[type='file']
+{
+    box-sizing: border-box;
+    border: none;
+
+    padding: 10px 14px;
+    background-color: #f1f1f1;  
+    border-radius: 0;
+    width: 100%;
+
+}
+form img 
+{
+    display: block;
+    width: 40px;
+    height: auto;
+    position: absolute;
+
+    transform: translate(340px,25px);
+}
+form .diff .ss 
+{
+    position: relative;
+}
+form .diff 
+{
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+form .diff .mainf{
+    /* background-color: red; */
+    width: 48%;
+}
+form .mainf input[type='submit']
+{
+    font-size: 17px;
+    text-transform: uppercase;
+    /* width: fit-content; */
+    /* margin: auto; */
+    padding: 10px 14px;
+    border: none;
+    background-color: #4070f4;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+form .mainf input[type='submit']:hover
+{
+    background-color: #3a62d1;
+}

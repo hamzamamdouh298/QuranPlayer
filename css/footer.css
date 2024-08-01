@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*
+{
+    font-family: 'Montserrat', sans-serif;
+    /* color: rgb(27, 27, 27); */
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: var(--gen-text-color);
+}
+:root{
+    --bg-color: rgb(255, 255, 255);
+    --gen-text-color: rgba(17, 17, 17);
+    --gen-text-hover-color: rgba(12, 12, 12, 0.87);
+}
+.footer
+{
+    background-color: #f1f1f1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px; */
+}
+.footer_cont 
+{
+    padding: 50px 50px;
+}
+.footer img 
+{
+    width: 70px;
+    height: auto;
+}
+.footer .s1 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer .s1 .sub_foot form
+{
+    /* background-color: red; */
+    display: block;
+}
+.footer .s1 .sub_foot form label 
+{
+    display: block;
+    font-size: 14px;
+}
+.footer .s1 .sub_foot form input[type='email']
+{
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    padding: 10px 14px;
+    border: none;
+    margin: 10px 0;
+}
+.footer .s1 .sub_foot form input[type='submit']
+{
+    padding: 10px 14px;
+    background-color: rgb(18, 150, 18);
+    border: none;
+    color: #fff;
+    /* border-radius: 20px; */
+    cursor: pointer;
+}
+.footer .s1 div p
+{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: .5;
+    margin-bottom: 20px;
+}
+.footer .s1 div li 
+{
+    /* background-color: green; */
+    margin: 10px 0;
+    font-size: 14px;
+    color: black;
+}
+hr 
+{
+    margin-top: 100px;
+}
+.footer .s2 
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .s2 p 
+{
+    font-size: 14px;
+    opacity: .5;
+}

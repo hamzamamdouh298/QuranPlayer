@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*
+{
+    font-family: 'Montserrat', sans-serif;
+    /* color: rgb(27, 27, 27); */
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: #1a0a05;
+}
+:root{
+    --bg-color: rgb(255, 255, 255);
+    --gen-text-color: rgba(17, 17, 17);
+    --gen-text-hover-color: rgba(12, 12, 12, 0.87);
+}
+body 
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.plai 
+{
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.plai img
+{
+    width: 1250px;
+    transform: translateX(-20%);
+}
+.container 
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+.container .logo
+{
+    /* padding: 50px; */
+    padding-bottom: 20px;
+}
+.container .logo img 
+{
+    width: 250px;
+    height: auto;
+}
+hr
+{
+    width: 60%;
+    opacity: .1;
+}
+.container .socials 
+{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 50px; */
+    padding: 20px 0;
+    width: 50%;
+}
+.container .socials a 
+{
+    padding: 15px 24px;
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.container .socials a:nth-child(1)
+{
+    background-color: blue;
+    transition: 0.3s;
+}
+.container .socials a:nth-child(1):hover 
+{
+    box-shadow: 0px 0px 25px 3px rgba(0, 0, 255, .4);
+}
+.container .socials a ion-icon,
+.container .socials a span 
+{
+    color: #fff;
+    margin-right: 20px;
+}
+.container .socials a:nth-child(2)
+{
+    background-color: red;
+    transition: 0.3s;
+}
+.container .socials a:nth-child(2):hover 
+{
+    box-shadow: 0px 0px 25px 3px rgba(255, 0, 0, 0.4);
+}
+.container form 
+{
+    width: 50%;
+    /* background-color: red; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+.container form input[type='email'],
+.container form input[type='text']
+{
+    display: block;
+    box-sizing: border-box;
+    padding: 14px 16px;
+    border: none;
+    margin: 5px 0;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+.container form .signed 
+{
+    /* background-color: red; */
+    display: flex;
+    margin: 10px;
+    /* opacity: .6; */
+}
+.container form .signed span 
+{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.container form input[type='submit']
+{
+    border: none;
+    background-color:#874F41;
+    color: #fff;
+    padding: 14px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.container form input[type='submit']:hover
+{
+    background-color: black;
+}
+.container p 
+{
+    font-size: 14px;
+    margin-top: 20px;
+}
+.container p a 
+{
+    color: rgb(104, 51, 27);
+}
+
+.error {
+  color: red;
+  /* background-color: red; */
+  font-size: 12px;
+  /* width: 100%; */
+}

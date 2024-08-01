@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100%;
+  background: #e3f2fd;
+  
+}
+/* .adf 
+{
+  padding: 100px;
+} */
+.conssaa
+{
+  /* background-color: #e3f2fd; */
+  background-color: #ffff;
+}
+.my_list
+{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px 20px 10px;
+  /* padding: 0px 30px; */
+  
+
+}
+.my_list .Music_header {
+  /* background-color: gray; */
+  width: fit-content;
+  padding: 20px 0px 20px 0px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+.my_list .Music_header span
+{
+  opacity: .7;
+}
+.my_list .rlist .example
+{
+  /* background-color: #e3f2fd; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.my_list .rlist .example .try 
+{
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  opacity: .5;
+  /* font-size: 16px; */
+}
+.my_list .rlist .example .try pre 
+{
+  margin-left: 20px;
+}
+.my_list .rlist .example .try:nth-child(3)
+{
+  /* flex-direction: row-reverse; */
+}
+.my_list .rlist .example .try:nth-child(2)
+{
+  /* text-align: center; */
+  display: block;
+
+}
+.my_list .mlist ul
+{
+  /* background-color: red; */
+  margin-top: 20px;
+}
+.my_list .mlist ul li 
+{
+  /* background-color: #dba91f; */
+  border-bottom: 1px solid #fff;
+  /* margin: 5px 0; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  place-items: center;
+  list-style-type: circle;
+  padding: 16px 14px;
+  border-radius: .2rem;
+  cursor: pointer;
+  transition: .2s;
+}
+.my_list .mlist ul li:nth-child(even)
+{
+  /* background: #BE9219; */
+}
+.my_list .mlist ul li:hover 
+{
+  background-color: #b68c19;
+}
+.my_list .mlist ul li:hover span,
+.my_list .mlist ul li:hover i
+{
+  /* color: rgb(36, 36, 36); */
+}
+.my_list .mlist ul li:hover i:hover
+{
+  color: red;
+}
+
+.my_list .mlist ul li .title_,
+.my_list .mlist ul li .artist_,
+.my_list .mlist ul li .time_ 
+{
+  width: 100%;
+  display: flex;
+}
+.my_list .mlist ul li .title_
+{
+  /* background-color: #fff; */
+  /* font-weight: bold; */
+}
+.my_list .mlist ul li .artist_ 
+{
+  /* justify-content: center; */
+  /* background-color: greenyellow; */
+}
+.my_list .mlist ul li span
+{
+  /* display: block; */
+  color: rgb(63, 63, 63);
+  font-size: 14px;
+}
+.my_list .mlist ul li .time_ 
+{
+  /* background-color: gray; */
+  /* justify-content: flex-end; */
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: space-evenly; */
+}
+.my_list .mlist ul li .time_ .likes_
+{
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+}
+.my_list .mlist ul li .time_ .likes_ i 
+{
+  font-size: 20px;
+  margin: 0px 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  /* color: #fff; */
+}
+/* .my_list .mlist ul li .time_ .likes_ i:hover 
+{
+  color: #4070f4;
+} */
+
+
+.sticky 
+{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* background-color: red; */
+  padding-bottom: 20px;
+}
+
+.sticky + .mlist {
+  /* padding-top: 100px; */
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
